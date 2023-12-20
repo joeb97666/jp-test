@@ -200,7 +200,7 @@ export function Grass() {
               <div className="space-y-3">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black">JP GARDENING</h2>
                 <p className="mx-auto max-w-[700px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-black">
-                  We bring your landscaping dreams to life.
+                  Bringing your landscaping dreams to life.
                 </p>
               </div>
               <div className="flex justify-center space-x-4 lg:justify-start">
