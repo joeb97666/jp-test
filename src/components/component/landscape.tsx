@@ -198,8 +198,8 @@ export function Grass() {
           <div className="container grid max-w-5xl items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6 lg:grid-cols-2 lg:text-left xl:max-w-6xl xl:gap-10">
             <div className="space-y-4 md:space-y-6">
               <div className="space-y-3">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black">JP GARDENING</h2>
-                <p className="mx-auto max-w-[700px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-black">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl border-gray-200 bg-white px-4 py-2 text-black">JP GARDENING</h2>
+                <p className="mx-auto max-w-[700px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed border-gray-200 bg-white px-4 py-2 dark:text-black">
                   Bringing your landscaping dreams to life.
                 </p>
               </div>
@@ -223,8 +223,8 @@ export function Grass() {
           <div className="container grid max-w-5xl items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6 lg:grid-cols-2 lg:text-left xl:max-w-6xl xl:gap-10">
             <div className="space-y-4 md:space-y-6">
               <div className="space-y-3">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black">Our Services</h2>
-                <p className="mx-auto max-w-[700px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-black">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl border-gray-200  bg-white px-4 py-2 text-black">Our Services</h2>
+                <p className="mx-auto max-w-[700px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed  border-gray-200 bg-white px-4 py-2 dark:text-black">
                   Explore the wide range of services we offer to make your landscape beautiful.
                 </p>
               </div>
