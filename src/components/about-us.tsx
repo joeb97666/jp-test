@@ -14,7 +14,7 @@ export function AboutUs() {
             <div>
             <h3 className="text-xl font-bold">Our Company</h3>
               <p className="text-gray-500 justify-text-left md:text-base dark:text-gray-400">
-                Welcome to your destination for professional lawn care and landscape design services. As a newly established business, we are dedicated to providing top-quality solutions to meet our client's outdoor maintenance and design needs.
+                Welcome to your destination for professional lawn care and landscape design services. As a newly established business, we are dedicated to providing top-quality solutions to meet our clients outdoor maintenance and design needs.
               </p>
 
               <br></br>
