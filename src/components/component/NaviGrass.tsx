@@ -29,30 +29,10 @@ export function NaviGrass() {
               <Link className="flex w-full items-center py-2 text-lg font-semibold" href="./">
                 Home
               </Link>
-              <Collapsible className="grid gap-4">
-                <CollapsibleTrigger className="flex w-full items-center text-lg font-semibold [&[data-state=open]>svg]:rotate-90">
-                  Services
-                  <ChevronRightIcon className="ml-auto h-5 w-5 transition-all" />
-                </CollapsibleTrigger>
-                <CollapsibleContent>
-                  <div className="-mx-6 grid gap-6 bg-gray-100 p-6 dark:bg-gray-800">
-                    <Link className="group grid h-auto w-full justify-start gap-1" href="./LawnCare">
-                      <div className="text-sm font-medium leading-none group-hover:underline">Lawn Care</div>
-                      <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
-                        Mowing, weeding, fertilizing, etc for your lawn.
-                      </div>
-                    </Link>
-                    <Link className="group grid h-auto w-full justify-start gap-1" href="./Landscapes">
-                      <div className="text-sm font-medium leading-none group-hover:underline">
-                        Landscapes
-                      </div>
-                      <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
-                        Simple landscape construction services.
-                      </div>
-                    </Link>
-                  </div>
-                </CollapsibleContent>
-              </Collapsible>
+              <Link className="flex w-full items-center py-2 text-lg font-semibold" href="./Services">
+                Services
+              </Link>
+              
               <Link className="flex w-full items-center py-2 text-lg font-semibold" href="./About">
                 About
               </Link>
