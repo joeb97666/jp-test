@@ -6,7 +6,7 @@ import { CropIcon } from "lucide-react";
 
 export function ServicesPage() {
   return (
-    <div className="bg-grey-900">
+    <div className="">
       <Head>
         <title>Services - JP Gardening</title>
         <meta
