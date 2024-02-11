@@ -6,7 +6,7 @@ import { CropIcon } from "lucide-react";
 
 export function ServicesPage() {
   return (
-    <div className="bg-gray-100">
+    <div className="">
       <Head>
         <title>Services - JP Gardening</title>
         <meta
@@ -18,13 +18,12 @@ export function ServicesPage() {
         <section className="mb-12">
           <ServiceCard
             icon={<TractorIcon />}
-            title="Lawn Care is our Specialty"
+            title="Our Company"
             description={
               <>
                 <p className="mb-4">
-                  <b>Lawn Mowing & Edging:</b> We use motorized battery
-                  powered equipment for fine-tuned accuracy. Attention to
-                  detail for a polished finish is our competitive advantage.
+                  <b>Welcome to your destination for professional lawn care and landscape design services. As a newly established business, we are dedicated to providing top-quality solutions to meet our clients' outdoor maintenance and design needs."
+                  </b>
                 </p>
                 <p className="mb-4">
                   <b>Fertilization and Weed Control:</b> Achieve a healthy,
@@ -107,10 +106,10 @@ interface ServiceCardProps {
 
 function ServiceCard({ icon, title, description }: ServiceCardProps) {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6">
+    <div className="bg-gray-900 rounded-lg shadow-lg p-6">
       <div className="flex items-center mb-4">{icon}</div>
       <h3 className="text-xl font-bold mb-4">{title}</h3>
-      <div className="text-gray-700 dark:text-gray-400">{description}</div>
+      <div className="text-gray dark:text-gray-400">{description}</div>
     </div>
   );
 }

@@ -2,7 +2,7 @@
 import { NaviGrass } from '@/components/component/NaviGrass';
 import { ServicesPage } from '@/components/services-page';
 
- function About() {
+ function Services() {
  
  
   return (
@@ -14,9 +14,8 @@ import { ServicesPage } from '@/components/services-page';
       <div>
             <ServicesPage />
       </div>
-              
 </>
         )
       }
 
-export default About
+export default Services
